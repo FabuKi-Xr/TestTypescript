@@ -8,5 +8,8 @@
 
 ## 2. Execute code
 - enter the command below to terminal 
-  <code>npm test</code>
-- 
+  <code>npm start</code>
+
+## 3. Unit testing
+- enter the command below to terminal 
+  `npm test`
