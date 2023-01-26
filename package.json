@@ -1,0 +1,31 @@
+{
+  "name": "testtypescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "build": "tsc",
+    "pretest": "npm run build",
+    "test": "mocha dist/test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FabuKi-Xr/TestTypescript.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FabuKi-Xr/TestTypescript/issues"
+  },
+  "homepage": "https://github.com/FabuKi-Xr/TestTypescript#readme",
+  "devDependencies": {
+    "@types/mocha": "^10.0.1",
+    "@types/should": "^13.0.0",
+    "mocha": "^10.2.0",
+    "should": "^13.2.3",
+    "typescript": "^4.9.4"
+  }
+}
