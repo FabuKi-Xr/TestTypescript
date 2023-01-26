@@ -27,6 +27,13 @@ describe('merge', () => {
         const expected = [0,0, 0, 2, 33, 33, 33, 44, 44, 49, 55];
         mock(d, mock_collection_1, mock_collection_2,expected);
     });
+    it('should return [1,100,200,299,1999,11111,200000]', () => {
+        const mock_collection_1 = [100,200,299,1999,11111];
+        const mock_collection_2 = [1,200000];
+        const expected = [1,100,200,299,1999,11111,200000];
+        mock(d, mock_collection_1, mock_collection_2,expected);
+    });
+    
 })
 
 function mock(d: demo, mock_collection_1: number[], mock_collection_2: number[],expected:number[]) {
